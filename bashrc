@@ -3,7 +3,7 @@
 #########################################
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 PATH_ORIGIN="${PATH}"
-if [ -e "${HOME}" ] ; then
+if [ -e "${HOME}/bin" ] ; then
     PATH_ORIGIN="${PATH_ORIGIN}:${HOME}/bin"
 fi
 
